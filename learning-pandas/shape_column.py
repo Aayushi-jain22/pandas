@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 data = {
     "Name": ["Alice", "Bob", "Charlie", "David"],
     "Age": [25, 30, 35, 40],
@@ -8,11 +7,8 @@ data = {
     "Performance": [90, 85, 95, 80]
 }
 
-
 df = pd.DataFrame(data)
-print(df.shape)
+# print(df.shape)
 print(f"Number of rows columns: {df.shape}")
-
-
 
 print(f'Number of columns: {df.columns}')
