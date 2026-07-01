@@ -13,3 +13,8 @@ df = pd.DataFrame(data)
 df.loc[0, "age"] = 26  # Update age for Alice
 print("Updated age for Alice:")
 print(df)
+
+
+## For multiple updates, you can use the .loc method with a list of indices and columns:
+df.loc[[1, 2], ["salary", "performance"]] = [[65000, "A"], [75000, "B"]]  # Update salary and performance for Bob and Charlie
+print("Updated salary and performance for Bob and Charlie:")
