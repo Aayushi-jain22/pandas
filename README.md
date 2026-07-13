@@ -9,7 +9,15 @@ my backend skill set toward data-intensive and AI/ML applications.
 - shape , column, series, dataframe
 - searching and filtering
 - Data cleaning and transformation
-- (add more as you learn)
+- Modification of columns, Removing 
+- Handling Missing Data , Values
+- Interpolation
+- Summary
+- Grouping, Multi Grouping
+- Manipulate Data
+- Sorting and Aggregation
+- Merging and Filtering (joins)
+- Concanting DataFrame
 
 ## Tech
 - Python 3.13
